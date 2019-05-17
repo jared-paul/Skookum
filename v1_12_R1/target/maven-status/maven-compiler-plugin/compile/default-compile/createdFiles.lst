@@ -1,0 +1,6 @@
+org\jared\dungeoncrawler\v1_12_R1\block\BlockUtil.class
+org\jared\dungeoncrawler\v1_12_R1\StructureUtil.class
+org\jared\dungeoncrawler\v1_12_R1\util\TitleUtil.class
+org\jared\dungeoncrawler\v1_12_R1\Structure.class
+org\jared\dungeoncrawler\v1_12_R1\maps\MapUtil.class
+org\jared\dungeoncrawler\v1_12_R1\PacketUtil.class

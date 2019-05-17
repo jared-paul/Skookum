@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/API" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Game" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Generation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v1_12_R1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v1_13_R1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v1_13_R2" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="skookum-api" />
+        <module name="skookum-game" />
+        <module name="skookum-generation" />
+        <module name="skookum-v1_12_R1" />
+        <module name="skookum-v1_13_R1" />
+        <module name="skookum-v1_13_R2" />
+      </profile>
+      <profile name="Annotation profile for skookum-parent" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="skookum" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Skookum" target="1.8" />
+      <module name="skookum" target="1.8" />
+      <module name="skookum-api" target="1.8" />
+      <module name="skookum-game" target="1.8" />
+      <module name="skookum-generation" target="1.8" />
+      <module name="skookum-v1_12_R1" target="1.8" />
+      <module name="skookum-v1_13_R1" target="1.8" />
+      <module name="skookum-v1_13_R2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

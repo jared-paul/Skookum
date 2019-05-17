@@ -1,0 +1,9 @@
+name: DungeonCrawler
+version: 1.0
+description: test
+main: org.jared.dungeoncrawler.plugin.DungeonCrawlerMain
+api-version: 1.13
+
+commands:
+  dungeon:
+    usage: /dungeon

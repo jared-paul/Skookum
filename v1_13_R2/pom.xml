@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>skookum-parent</artifactId>
+        <groupId>org.jared</groupId>
+        <version>parent</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>skookum-v1_13_R2</artifactId>
+    <packaging>jar</packaging>
+    <name>Skookum v1_13_R2</name>
+    <version>v1_13_R2</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jared</groupId>
+            <artifactId>skookum-api</artifactId>
+            <version>API</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot</artifactId>
+            <version>1.13.2</version>
+            <scope>system</scope>
+            <systemPath>C:/Users/JPaul/IdeaProjects/Skookum/lib/spigot-1.13.2.jar</systemPath>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Skookum.iml" filepath="$PROJECT_DIR$/.idea/Skookum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Plugin/skookum.iml" filepath="$PROJECT_DIR$/Plugin/skookum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/API/skookum-api.iml" filepath="$PROJECT_DIR$/API/skookum-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Game/skookum-game.iml" filepath="$PROJECT_DIR$/Game/skookum-game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generation/skookum-generation.iml" filepath="$PROJECT_DIR$/Generation/skookum-generation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1_12_R1/skookum-v1_12_R1.iml" filepath="$PROJECT_DIR$/v1_12_R1/skookum-v1_12_R1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1_13_R1/skookum-v1_13_R1.iml" filepath="$PROJECT_DIR$/v1_13_R1/skookum-v1_13_R1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1_13_R2/skookum-v1_13_R2.iml" filepath="$PROJECT_DIR$/v1_13_R2/skookum-v1_13_R2.iml" />
+    </modules>
+  </component>
+</project>

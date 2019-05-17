@@ -1,0 +1,17 @@
+org\jared\dungeoncrawler\plugin\commands\Commands.class
+org\jared\dungeoncrawler\plugin\commands\SimpleInjector.class
+org\jared\dungeoncrawler\plugin\DungeonCrawlerMain.class
+org\jared\dungeoncrawler\plugin\commands\Commands$1$1.class
+org\jared\dungeoncrawler\plugin\commands\CommandClass.class
+org\jared\dungeoncrawler\plugin\commands\NestedCommand.class
+org\jared\dungeoncrawler\plugin\commands\Command.class
+org\jared\dungeoncrawler\plugin\commands\ConsoleCommand.class
+org\jared\dungeoncrawler\plugin\commands\CommandContext.class
+org\jared\dungeoncrawler\plugin\commands\CommandManager.class
+org\jared\dungeoncrawler\plugin\commands\Commands$1.class
+org\jared\dungeoncrawler\plugin\commands\CommandInfo.class
+org\jared\dungeoncrawler\plugin\commands\CommandException.class
+org\jared\dungeoncrawler\plugin\registry\DungeonPlayerRegistry.class
+org\jared\dungeoncrawler\plugin\registry\DungeonPlayer.class
+org\jared\dungeoncrawler\plugin\commands\Injector.class
+org\jared\dungeoncrawler\plugin\Dungeon.class
