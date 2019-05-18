@@ -58,9 +58,6 @@ public class DungeonCrawlerMain extends JavaPlugin implements Listener, IDungeon
     {
         DungeonCrawler.setPlugin(this);
 
-
-        DungeonCrawler.LOG.console("FUCK YEA HOLY SHIT !!!!!!");
-
         String packageName = this.getServer().getClass().getPackage().getName();
         String version = packageName.substring(packageName.lastIndexOf(".") + 1);
 
