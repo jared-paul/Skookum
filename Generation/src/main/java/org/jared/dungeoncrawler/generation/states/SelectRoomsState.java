@@ -1,7 +1,6 @@
 package org.jared.dungeoncrawler.generation.states;
 
 import com.google.common.collect.Lists;
-import org.bukkit.util.Vector;
 import org.jared.dungeoncrawler.api.generation.IGenerationContext;
 import org.jared.dungeoncrawler.api.generation.ImageState;
 import org.jared.dungeoncrawler.api.generation.State;

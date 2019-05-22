@@ -5,7 +5,7 @@ import org.bukkit.Location;
 import org.bukkit.block.BlockFace;
 import org.bukkit.util.Vector;
 import org.jared.dungeoncrawler.api.data.Tuple;
-import org.jared.dungeoncrawler.api.generation.block.IMaterialAndData;
+import org.jared.dungeoncrawler.api.material.IMaterialAndData;
 
 import java.util.Collection;
 import java.util.List;

@@ -1,6 +1,6 @@
 package org.jared.dungeoncrawler.api.generation.theme;
 
-import org.jared.dungeoncrawler.api.generation.block.XMaterial;
+import org.jared.dungeoncrawler.api.material.XMaterial;
 
 import java.util.Map;
 

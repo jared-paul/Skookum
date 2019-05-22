@@ -1,6 +1,5 @@
 package org.jared.dungeoncrawler.generation.states;
 
-import org.bukkit.util.Vector;
 import org.jared.dungeoncrawler.api.generation.IGenerationContext;
 import org.jared.dungeoncrawler.api.generation.ImageState;
 import org.jared.dungeoncrawler.api.generation.State;
@@ -10,7 +9,6 @@ import org.jared.dungeoncrawler.api.generation.delaunay.DT_Triangle;
 import org.jared.dungeoncrawler.api.generation.delaunay.DelaunayTriangulation;
 import org.jared.dungeoncrawler.api.generation.delaunay.EdgeList;
 import org.jared.dungeoncrawler.api.maps.MapConstants;
-import org.jared.dungeoncrawler.api.maps.util.MapImageUtil;
 import org.jared.dungeoncrawler.api.plugin.DungeonCrawler;
 
 import java.awt.*;

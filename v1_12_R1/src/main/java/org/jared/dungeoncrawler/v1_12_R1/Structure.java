@@ -2,11 +2,12 @@ package org.jared.dungeoncrawler.v1_12_R1;
 
 import com.google.common.collect.Maps;
 import net.minecraft.server.v1_12_R1.*;
+import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.craftbukkit.v1_12_R1.util.CraftMagicNumbers;
 import org.bukkit.util.Vector;
-import org.jared.dungeoncrawler.api.generation.block.IMaterialAndData;
-import org.jared.dungeoncrawler.api.generation.block.MaterialAndData;
+import org.jared.dungeoncrawler.api.material.IMaterialAndData;
+import org.jared.dungeoncrawler.api.material.MaterialAndData;
 import org.jared.dungeoncrawler.api.structures.AbstractStructure;
 import org.jared.dungeoncrawler.api.util.VectorUtil;
 
@@ -42,6 +43,12 @@ public class Structure extends AbstractStructure implements Cloneable
                 this.blockMap.put(position, new MaterialAndData(material, "", (byte)block.toLegacyData(data)));
             }
         }
+    }
+
+    @Override
+    public void place(Location base)
+    {
+
     }
 
     @Override

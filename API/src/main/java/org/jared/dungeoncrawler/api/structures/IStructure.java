@@ -4,7 +4,7 @@ import org.bukkit.Location;
 import org.bukkit.util.Vector;
 import org.jared.dungeoncrawler.api.concurrency.Callback;
 import org.jared.dungeoncrawler.api.generation.block.IBlockPlacer;
-import org.jared.dungeoncrawler.api.generation.block.IMaterialAndData;
+import org.jared.dungeoncrawler.api.material.IMaterialAndData;
 
 import java.io.File;
 import java.util.List;
@@ -33,6 +33,8 @@ public interface IStructure extends Cloneable
     int[] getDimensions();
 
     void place(Location base, IBlockPlacer blockPlacer, Callback<Boolean> callback);
+
+    void place(Location base);
 
     //returns a COPY of the block data based off the rotation angle
     void rotate(int angle);

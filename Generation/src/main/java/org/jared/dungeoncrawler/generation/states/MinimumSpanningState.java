@@ -4,11 +4,9 @@ import org.jared.dungeoncrawler.api.generation.IGenerationContext;
 import org.jared.dungeoncrawler.api.generation.ImageState;
 import org.jared.dungeoncrawler.api.generation.State;
 import org.jared.dungeoncrawler.api.generation.delaunay.DT_Point;
-import org.jared.dungeoncrawler.api.generation.delaunay.DT_Triangle;
 import org.jared.dungeoncrawler.api.generation.delaunay.DisjointSetForest;
 import org.jared.dungeoncrawler.api.generation.delaunay.EdgeList;
 import org.jared.dungeoncrawler.api.maps.MapConstants;
-import org.jared.dungeoncrawler.api.maps.util.MapImageUtil;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

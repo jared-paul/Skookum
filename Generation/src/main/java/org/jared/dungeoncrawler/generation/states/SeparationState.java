@@ -5,13 +5,11 @@ import org.bukkit.util.Vector;
 import org.jared.dungeoncrawler.api.generation.IGenerationContext;
 import org.jared.dungeoncrawler.api.generation.ImageState;
 import org.jared.dungeoncrawler.api.generation.State;
-import org.jared.dungeoncrawler.api.generation.block.XMaterial;
 import org.jared.dungeoncrawler.api.generation.cell.IRoom;
 import org.jared.dungeoncrawler.api.generation.util.PhysicsUtil;
-import org.jared.dungeoncrawler.api.generation.util.XORShiftRandom;
 import org.jared.dungeoncrawler.api.maps.MapConstants;
+import org.jared.dungeoncrawler.api.material.XMaterial;
 import org.jared.dungeoncrawler.api.plugin.DungeonCrawler;
-import org.jared.dungeoncrawler.api.structures.AABB;
 import org.jbox2d.dynamics.World;
 
 import java.awt.*;

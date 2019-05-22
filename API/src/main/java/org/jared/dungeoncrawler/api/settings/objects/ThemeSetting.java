@@ -2,8 +2,8 @@ package org.jared.dungeoncrawler.api.settings.objects;
 
 import com.google.common.collect.Maps;
 import org.bukkit.configuration.file.FileConfiguration;
-import org.jared.dungeoncrawler.api.generation.block.XMaterial;
 import org.jared.dungeoncrawler.api.generation.theme.Theme;
+import org.jared.dungeoncrawler.api.material.XMaterial;
 import org.jared.dungeoncrawler.api.plugin.DungeonCrawler;
 import org.jared.dungeoncrawler.api.settings.AbstractSetting;
 

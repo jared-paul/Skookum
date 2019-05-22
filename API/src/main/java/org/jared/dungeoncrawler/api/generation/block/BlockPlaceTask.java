@@ -7,6 +7,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.util.Vector;
 import org.jared.dungeoncrawler.api.concurrency.Callback;
 import org.jared.dungeoncrawler.api.data.Tuple;
+import org.jared.dungeoncrawler.api.material.IMaterialAndData;
 import org.jared.dungeoncrawler.api.plugin.DungeonCrawler;
 import org.jared.dungeoncrawler.api.util.VectorUtil;
 

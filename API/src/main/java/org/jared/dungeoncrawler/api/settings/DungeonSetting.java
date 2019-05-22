@@ -3,8 +3,8 @@ package org.jared.dungeoncrawler.api.settings;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.jared.dungeoncrawler.api.game.mobs.Mob;
-import org.jared.dungeoncrawler.api.generation.block.XMaterial;
 import org.jared.dungeoncrawler.api.generation.theme.Theme;
+import org.jared.dungeoncrawler.api.material.XMaterial;
 import org.jared.dungeoncrawler.api.settings.objects.MobSetting;
 import org.jared.dungeoncrawler.api.settings.objects.ThemeSetting;
 

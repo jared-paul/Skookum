@@ -1,7 +1,6 @@
 org\jared\dungeoncrawler\game\states\preparation\CountdownState$1.class
 org\jared\dungeoncrawler\game\Countdown.class
 org\jared\dungeoncrawler\game\listeners\NPCClick.class
-org\jared\dungeoncrawler\game\listeners\PlayerJoin$1.class
 org\jared\dungeoncrawler\game\states\preparation\CheckPointState.class
 org\jared\dungeoncrawler\game\GameContext.class
 org\jared\dungeoncrawler\game\util\RoomUtil.class

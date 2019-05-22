@@ -14,7 +14,6 @@ import org.jared.dungeoncrawler.api.player.IDungeonPlayer;
 import org.jared.dungeoncrawler.api.plugin.DungeonCrawler;
 import org.jared.dungeoncrawler.game.GameContext;
 import org.jared.dungeoncrawler.generation.GenerationContext;
-import org.jared.dungeoncrawler.generation.states.InitializeState;
 import org.jared.dungeoncrawler.plugin.Dungeon;
 
 public class Commands implements CommandClass

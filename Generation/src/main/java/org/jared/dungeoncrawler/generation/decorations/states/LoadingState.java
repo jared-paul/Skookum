@@ -5,9 +5,9 @@ import org.bukkit.util.Vector;
 import org.jared.dungeoncrawler.api.concurrency.Callback;
 import org.jared.dungeoncrawler.api.data.Tuple;
 import org.jared.dungeoncrawler.api.generation.IGenerationContext;
-import org.jared.dungeoncrawler.api.generation.block.IMaterialAndData;
 import org.jared.dungeoncrawler.api.generation.cell.IRoom;
 import org.jared.dungeoncrawler.api.generation.decorations.IDecoration;
+import org.jared.dungeoncrawler.api.material.IMaterialAndData;
 import org.jared.dungeoncrawler.generation.decorations.DecorationLoader;
 
 import java.util.List;

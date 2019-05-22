@@ -47,14 +47,6 @@
             <systemPath>C:/Users/JPaul/IdeaProjects/Skookum/lib/spigot-1.12.2.jar</systemPath>
         </dependency>
 
-        <dependency>
-            <groupId>test</groupId>
-            <artifactId>BKCommonLib</artifactId>
-            <version>1.12.2</version>
-            <scope>system</scope>
-            <systemPath>C:/Users/JPaul/IdeaProjects/Skookum/lib/BKCommonLib-1.13.2-v3 (1).jar</systemPath>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.javassist/javassist -->
         <dependency>
             <groupId>org.javassist</groupId>

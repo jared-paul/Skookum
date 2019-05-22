@@ -1,15 +1,10 @@
 package org.jared.dungeoncrawler.plugin;
 
 import de.slikey.effectlib.EffectManager;
-import net.minecraft.server.v1_12_R1.Blocks;
-import org.bukkit.Bukkit;
-import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.scheduler.BukkitRunnable;
-import org.bukkit.util.Vector;
 import org.jared.dungeoncrawler.api.generation.block.IBlockUtil;
 import org.jared.dungeoncrawler.api.generation.decorations.registry.IDecorationRegistry;
 import org.jared.dungeoncrawler.api.generation.theme.Theme;
@@ -23,9 +18,6 @@ import org.jared.dungeoncrawler.api.settings.DungeonSetting;
 import org.jared.dungeoncrawler.api.settings.DungeonSettings;
 import org.jared.dungeoncrawler.api.settings.IDungeonSettings;
 import org.jared.dungeoncrawler.api.structures.IStructureUtil;
-import org.jared.dungeoncrawler.api.structures.nbt.CompoundTag;
-import org.jared.dungeoncrawler.api.structures.nbt.ListTag;
-import org.jared.dungeoncrawler.api.structures.nbt.NBTInputStream;
 import org.jared.dungeoncrawler.api.util.ITitleUtil;
 import org.jared.dungeoncrawler.game.listeners.NPCClick;
 import org.jared.dungeoncrawler.game.listeners.PlayerJoin;
@@ -36,9 +28,6 @@ import org.jared.dungeoncrawler.plugin.commands.CommandManager;
 import org.jared.dungeoncrawler.plugin.commands.Commands;
 import org.jared.dungeoncrawler.plugin.commands.SimpleInjector;
 import org.jared.dungeoncrawler.plugin.registry.DungeonPlayerRegistry;
-import org.jared.dungeoncrawler.v1_13_R2.testloader.Test;
-
-import java.io.FileInputStream;
 
 public class DungeonCrawlerMain extends JavaPlugin implements Listener, IDungeonCrawlerMain
 {
@@ -65,21 +54,21 @@ public class DungeonCrawlerMain extends JavaPlugin implements Listener, IDungeon
         {
             DungeonCrawler.LOG.warning(version);
 
-            final Class<?> mapSenderClazz = Class.forName("org.jared.dungeoncrawler." + version + ".maps.MapUtil");
+            final Class<?> mapSenderClazz = Class.forName("org.jared.dungeoncrawler." + version + ".maps.MapNMS");
             if (IMapUtil.class.isAssignableFrom(mapSenderClazz))
                 mapUtil = (IMapUtil) mapSenderClazz.getConstructor().newInstance();
 
             DungeonCrawler.LOG.warning(mapUtil == null);
 
-            final Class<?> decorationClazz = Class.forName("org.jared.dungeoncrawler." + version + ".StructureUtil");
+            final Class<?> decorationClazz = Class.forName("org.jared.dungeoncrawler." + version + ".structures.StructureNMS");
             if (IStructureUtil.class.isAssignableFrom(decorationClazz))
                 structureUtil = (IStructureUtil) decorationClazz.getConstructor().newInstance();
 
-            final Class<?> placingClazz = Class.forName("org.jared.dungeoncrawler." + version + ".block.BlockUtil");
+            final Class<?> placingClazz = Class.forName("org.jared.dungeoncrawler." + version + ".block.BlockNMS");
             if (IBlockUtil.class.isAssignableFrom(placingClazz))
                 blockUtil = ((IBlockUtil) placingClazz.getConstructor().newInstance());
 
-            final Class<?> titleClazz = Class.forName("org.jared.dungeoncrawler." + version + ".util.TitleUtil");
+            final Class<?> titleClazz = Class.forName("org.jared.dungeoncrawler." + version + ".util.TitleNMS");
             if (ITitleUtil.class.isAssignableFrom(titleClazz))
                 titleUtil = (ITitleUtil) titleClazz.getConstructor().newInstance();
 

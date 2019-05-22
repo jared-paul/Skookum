@@ -1,6 +1,5 @@
 package org.jared.dungeoncrawler.generation.states;
 
-import com.google.common.collect.Lists;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
@@ -10,10 +9,8 @@ import org.bukkit.util.Vector;
 import org.jared.dungeoncrawler.api.generation.IGenerationContext;
 import org.jared.dungeoncrawler.api.generation.State;
 import org.jared.dungeoncrawler.api.generation.delaunay.DisjointSetForest;
-import org.jared.dungeoncrawler.api.generation.maps.IMapContext;
 import org.jared.dungeoncrawler.api.plugin.DungeonCrawler;
 import org.jared.dungeoncrawler.generation.maps.MapContext;
-import org.jared.dungeoncrawler.generation.maps.MapPresenter;
 
 import java.util.Collection;
 

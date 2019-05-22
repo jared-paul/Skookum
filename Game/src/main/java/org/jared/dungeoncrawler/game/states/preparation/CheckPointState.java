@@ -9,8 +9,8 @@ import org.jared.dungeoncrawler.api.game.IGameContext;
 import org.jared.dungeoncrawler.api.game.IRoom;
 import org.jared.dungeoncrawler.api.game.State;
 import org.jared.dungeoncrawler.api.generation.block.BlockPlaceTask;
-import org.jared.dungeoncrawler.api.generation.block.IMaterialAndData;
-import org.jared.dungeoncrawler.api.generation.block.MaterialAndData;
+import org.jared.dungeoncrawler.api.material.IMaterialAndData;
+import org.jared.dungeoncrawler.api.material.MaterialAndData;
 import org.jared.dungeoncrawler.api.plugin.DungeonCrawler;
 import org.jared.dungeoncrawler.api.util.RandomUtil;
 

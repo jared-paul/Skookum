@@ -3,7 +3,6 @@ package org.jared.dungeoncrawler.v1_12_R1;
 import net.minecraft.server.v1_12_R1.DefinedStructure;
 import net.minecraft.server.v1_12_R1.NBTCompressedStreamTools;
 import net.minecraft.server.v1_12_R1.NBTTagCompound;
-import org.bukkit.Location;
 import org.jared.dungeoncrawler.api.structures.IStructure;
 import org.jared.dungeoncrawler.api.structures.IStructureUtil;
 
@@ -85,50 +84,50 @@ public class StructureUtil implements IStructureUtil
     }
     */
 
-    @Override
-    public int[] getDimensions(Location[] corners)
-    {
-        if (corners.length != 2)
-            throw new IllegalArgumentException("An area needs to be set up by exactly 2 opposite edges!");
-
-        return new int[]{corners[1].getBlockX() - corners[0].getBlockX() + 1, corners[1].getBlockY() - corners[0].getBlockY() + 1, corners[1].getBlockZ() - corners[0].getBlockZ() + 1};
-    }
-
-    @Override
-    public Location[] normalizeEdges(Location startBlock, Location endBlock)
-    {
-        int xMin, xMax, yMin, yMax, zMin, zMax;
-        if (startBlock.getBlockX() <= endBlock.getBlockX())
-        {
-            xMin = startBlock.getBlockX();
-            xMax = endBlock.getBlockX();
-        }
-        else
-        {
-            xMin = endBlock.getBlockX();
-            xMax = startBlock.getBlockX();
-        }
-        if (startBlock.getBlockY() <= endBlock.getBlockY())
-        {
-            yMin = startBlock.getBlockY();
-            yMax = endBlock.getBlockY();
-        }
-        else
-        {
-            yMin = endBlock.getBlockY();
-            yMax = startBlock.getBlockY();
-        }
-        if (startBlock.getBlockZ() <= endBlock.getBlockZ())
-        {
-            zMin = startBlock.getBlockZ();
-            zMax = endBlock.getBlockZ();
-        }
-        else
-        {
-            zMin = endBlock.getBlockZ();
-            zMax = startBlock.getBlockZ();
-        }
-
-        return new Location[]{new Location(startBlock.getWorld(), xMin, yMin, zMin), new Location(startBlock.getWorld(), xMax, yMax, zMax)};
-    }
+//    @Override
+//    public int[] getDimensions(Location[] corners)
+//    {
+//        if (corners.length != 2)
+//            throw new IllegalArgumentException("An area needs to be set up by exactly 2 opposite edges!");
+//
+//        return new int[]{corners[1].getBlockX() - corners[0].getBlockX() + 1, corners[1].getBlockY() - corners[0].getBlockY() + 1, corners[1].getBlockZ() - corners[0].getBlockZ() + 1};
+//    }
+//
+//    @Override
+//    public Location[] normalizeEdges(Location startBlock, Location endBlock)
+//    {
+//        int xMin, xMax, yMin, yMax, zMin, zMax;
+//        if (startBlock.getBlockX() <= endBlock.getBlockX())
+//        {
+//            xMin = startBlock.getBlockX();
+//            xMax = endBlock.getBlockX();
+//        }
+//        else
+//        {
+//            xMin = endBlock.getBlockX();
+//            xMax = startBlock.getBlockX();
+//        }
+//        if (startBlock.getBlockY() <= endBlock.getBlockY())
+//        {
+//            yMin = startBlock.getBlockY();
+//            yMax = endBlock.getBlockY();
+//        }
+//        else
+//        {
+//            yMin = endBlock.getBlockY();
+//            yMax = startBlock.getBlockY();
+//        }
+//        if (startBlock.getBlockZ() <= endBlock.getBlockZ())
+//        {
+//            zMin = startBlock.getBlockZ();
+//            zMax = endBlock.getBlockZ();
+//        }
+//        else
+//        {
+//            zMin = endBlock.getBlockZ();
+//            zMax = startBlock.getBlockZ();
+//        }
+//
+//        return new Location[]{new Location(startBlock.getWorld(), xMin, yMin, zMin), new Location(startBlock.getWorld(), xMax, yMax, zMax)};
+//    }
 }

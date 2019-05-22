@@ -3,13 +3,17 @@ package org.jared.dungeoncrawler.api.structures;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.util.Vector;
 import org.jared.dungeoncrawler.api.concurrency.Callback;
 import org.jared.dungeoncrawler.api.data.Tuple;
 import org.jared.dungeoncrawler.api.generation.block.BlockPlaceTask;
 import org.jared.dungeoncrawler.api.generation.block.IBlockPlacer;
-import org.jared.dungeoncrawler.api.generation.block.IMaterialAndData;
-import org.jared.dungeoncrawler.api.plugin.DungeonCrawler;
+import org.jared.dungeoncrawler.api.material.IMaterialAndData;
+import org.jared.dungeoncrawler.api.material.MaterialAndData;
+import org.jared.dungeoncrawler.api.nbt.INBTBase;
+import org.jared.dungeoncrawler.api.nbt.NBTTagCompound;
+import org.jared.dungeoncrawler.api.nbt.NBTTagString;
 import org.jared.dungeoncrawler.api.util.VectorUtil;
 
 import java.io.File;
@@ -104,8 +108,6 @@ public abstract class AbstractStructure implements IStructure
             Vector position = blockEntry.getKey();
             IMaterialAndData materialAndData = blockEntry.getValue();
 
-            DungeonCrawler.LOG.warning(materialAndData.getBlockData());
-
             blockData.add(new Tuple<>(position, materialAndData));
         }
 
@@ -154,11 +156,148 @@ public abstract class AbstractStructure implements IStructure
         try
         {
             return (IStructure) super.clone();
-        } catch (CloneNotSupportedException e)
+        }
+        catch (CloneNotSupportedException e)
         {
             e.printStackTrace();
         }
 
         return null;
     }
+
+    protected class EntityInfo
+    {
+        private Vector position;
+        private Vector blockPosition;
+        private NBTTagCompound nbt;
+
+        public EntityInfo(Vector position, Vector blockPosition, NBTTagCompound nbt)
+        {
+            this.position = position;
+            this.blockPosition = blockPosition;
+            this.nbt = nbt;
+        }
+
+        public Vector getPosition()
+        {
+            return position;
+        }
+
+        public Vector getBlockPosition()
+        {
+            return blockPosition;
+        }
+
+        public NBTTagCompound getNBT()
+        {
+            return nbt;
+        }
+    }
+
+    //TODO probably needs to be per version
+    public class NBTDataExtractor
+    {
+        public MaterialAndData getBlockInfo(NBTTagCompound data)
+        {
+            MaterialAndData blockInfo;
+
+            if (!data.hasKey("Name"))
+            {
+                blockInfo = new MaterialAndData(Material.AIR, "", (byte) 0);
+            }
+            else
+            {
+                String materialName = data.getString("Name").replace("minecraft:", "").toUpperCase();
+                Material material = Material.getMaterial(materialName);
+
+                blockInfo = new MaterialAndData(material, "", (byte) 0);
+
+                if (data.hasKey("Properties"))
+                {
+                    NBTTagCompound propertyTag = data.getCompound("Properties");
+
+                    String blockDataString = toBlockData(propertyTag.getTagMap());
+
+                    blockInfo = new MaterialAndData(material, blockDataString, (byte) 0);
+                }
+            }
+
+            return blockInfo;
+        }
+
+        private String toBlockData(Map<String, INBTBase> properties)
+        {
+            StringBuilder stringBuilder = new StringBuilder("[");
+
+            Iterator<Map.Entry<String, INBTBase>> entryIterator = properties.entrySet().iterator();
+            while (entryIterator.hasNext())
+            {
+                Map.Entry<String, INBTBase> entry = entryIterator.next();
+                String key = entry.getKey();
+                NBTTagString value = (NBTTagString) entry.getValue();
+
+                stringBuilder.append(key).append("=").append(value.asString());
+
+                if (entryIterator.hasNext())
+                {
+                    stringBuilder.append(",");
+                }
+            }
+
+            return stringBuilder.append("]").toString();
+        }
+
+
+//    public static BlockInfo getBlockInfo(NBTTagCompound data)
+//    {
+//        BlockInfo blockInfo;
+//
+//        if (!data.contains("Name", 8))
+//        {
+//            blockInfo = new BlockInfo(Material.AIR, Material.AIR.createBlockData());
+//        }
+//        else
+//        {
+//            String materialName = data.getString("Name").replace("minecraft:", "").toUpperCase();
+//            Material material = Material.getMaterial(materialName);
+//
+//            blockInfo = new BlockInfo(material, material.createBlockData());
+//
+//            if (data.contains("Properties", 10))
+//            {
+//                NBTTagCompound propertyTag = data.getCompound("Properties");
+//
+//                String blockDataString = toBlockData(propertyTag.getTagMap());
+//
+//                blockInfo = new BlockInfo(material, material.createBlockData(blockDataString));
+//            }
+//        }
+//
+//        return blockInfo;
+//    }
+//
+//    private static String toBlockData(Map<String, INBTBase> properties)
+//    {
+//        StringBuilder stringBuilder = new StringBuilder("[");
+//
+//        Iterator<Map.Entry<String, INBTBase>> entryIterator = properties.entrySet().iterator();
+//        while (entryIterator.hasNext())
+//        {
+//            Map.Entry<String, INBTBase> entry = entryIterator.next();
+//            String key = entry.getKey();
+//            NBTTagString value = (NBTTagString) entry.getValue();
+//
+//            stringBuilder.append(key).append("=").append(value.asString());
+//
+//            if (entryIterator.hasNext())
+//            {
+//                stringBuilder.append(",");
+//            }
+//        }
+//
+//        return stringBuilder.append("]").toString();
+//    }
+
+    }
 }
+

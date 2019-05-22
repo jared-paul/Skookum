@@ -1,7 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8917c490-796b-46d7-8be5-a75b6a479970" name="Default" comment="" />
+    <list default="true" id="8917c490-796b-46d7-8be5-a75b6a479970" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/nbt/NBTUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/structures/StructureNMS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Skookum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Skookum.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/skookum-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/API/skookum-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/IGenerationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/IGenerationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/block/BlockPlaceTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/block/BlockPlaceTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/block/IBlockUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/block/IBlockUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/block/IMaterialAndData.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/material/IMaterialAndData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/block/MaterialAndData.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/material/MaterialAndData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/block/XMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/material/XMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/theme/Theme.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/theme/Theme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/MapRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/MapRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/MapColourPalette.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/MapColourPalette.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/MapColourSpaceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/MapColourSpaceData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDBubbleFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDBubbleFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDGenBukkit.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDGenBukkit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDWebbingCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDWebbingCodec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/controllers/DefaultMapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/controllers/DefaultMapController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/wrappers/DefaultMapWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/wrappers/DefaultMapWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/settings/DungeonSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/settings/DungeonSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/settings/objects/ThemeSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/settings/objects/ThemeSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/AbstractStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/AbstractStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/ICustomDefinedStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/ICustomDefinedStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/IStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/IStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/IStructureUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/IStructureUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/ByteArrayTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/ByteTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/CompoundTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/CompoundTagBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/DoubleTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/EndTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/EndianSwitchableInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/FloatTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/IntArrayTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/IntTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/ListTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/ListTagBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/LongArrayTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/LongTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/NBTConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/NBTInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/NBTOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/NBTUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/NamedTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/ShortTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/StringTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/Tag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/CompressedStreamTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/CompressedStreamTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/INBTBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/INBTBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTDynamicOps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTDynamicOpsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTList.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTSizeTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTSizeTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagByte.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagByte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagByteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagByteArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagCompound.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagCompound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagDouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagFloat.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagFloat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagIntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagIntArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagList.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagLong.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagLong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagLongArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagLongArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagShort.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagShort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagString.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/util/VectorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/util/VectorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/generation/IGenerationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/generation/IGenerationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/generation/block/BlockPlaceTask$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/generation/block/BlockPlaceTask$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/generation/block/BlockPlaceTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/generation/block/BlockPlaceTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/generation/block/IBlockUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/generation/block/IBlockUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/generation/block/IMaterialAndData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/generation/block/MaterialAndData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/generation/block/XMaterial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/generation/theme/Theme.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/generation/theme/Theme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/maps/MapRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/maps/MapRegistry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/maps/wrappers/DefaultMapWrapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/maps/wrappers/DefaultMapWrapper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/maps/wrappers/DefaultMapWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/maps/wrappers/DefaultMapWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/settings/DungeonSetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/settings/DungeonSetting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/settings/objects/ThemeSetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/settings/objects/ThemeSetting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/AbstractStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/AbstractStructure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/ICustomDefinedStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/ICustomDefinedStructure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/IStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/IStructure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/ByteArrayTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/ByteTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/CompoundTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/CompoundTagBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/DoubleTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/EndTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/EndianSwitchableInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/FloatTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/IntArrayTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/IntTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/ListTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/ListTagBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/LongArrayTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/LongTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/NBTConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/NBTInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/NBTOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/NBTUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/NamedTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/ShortTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/StringTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbt/Tag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/CompressedStreamTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/INBTBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTDynamicOps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTDynamicOpsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTSizeTracker$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTSizeTracker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagByte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagByteArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagCompound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagDouble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagFloat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagIntArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagLong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagLongArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagShort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/util/VectorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/classes/org/jared/dungeoncrawler/api/util/VectorUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/target/skookum-api-API.jar" beforeDir="false" afterPath="$PROJECT_DIR$/API/target/skookum-api-API.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/skookum-game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Game/skookum-game.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/src/main/java/org/jared/dungeoncrawler/game/listeners/NPCClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/main/java/org/jared/dungeoncrawler/game/listeners/NPCClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/src/main/java/org/jared/dungeoncrawler/game/listeners/PlayerJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/main/java/org/jared/dungeoncrawler/game/listeners/PlayerJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/src/main/java/org/jared/dungeoncrawler/game/listeners/PlayerMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/main/java/org/jared/dungeoncrawler/game/listeners/PlayerMove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/src/main/java/org/jared/dungeoncrawler/game/states/preparation/CheckPointState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/main/java/org/jared/dungeoncrawler/game/states/preparation/CheckPointState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/target/classes/org/jared/dungeoncrawler/game/listeners/NPCClick$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Game/target/classes/org/jared/dungeoncrawler/game/listeners/NPCClick$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/target/classes/org/jared/dungeoncrawler/game/listeners/PlayerJoin$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/target/classes/org/jared/dungeoncrawler/game/listeners/PlayerJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/Game/target/classes/org/jared/dungeoncrawler/game/listeners/PlayerJoin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/target/classes/org/jared/dungeoncrawler/game/listeners/PlayerMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/Game/target/classes/org/jared/dungeoncrawler/game/listeners/PlayerMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/target/classes/org/jared/dungeoncrawler/game/states/preparation/CheckPointState.class" beforeDir="false" afterPath="$PROJECT_DIR$/Game/target/classes/org/jared/dungeoncrawler/game/states/preparation/CheckPointState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Game/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Game/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/target/skookum-game-Game.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Game/target/skookum-game-Game.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/skookum-generation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/skookum-generation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/GenerationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/GenerationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/decorations/DecorationLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/decorations/DecorationLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/decorations/states/LoadingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/decorations/states/LoadingState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/BuildState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/BuildState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/ChestState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/ChestState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/DoorwayState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/DoorwayState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/HiddenRoomState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/HiddenRoomState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/InitializeState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/InitializeState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/MinimumSpanningState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/MinimumSpanningState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/SelectRoomsState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/SelectRoomsState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/SeparationState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/SeparationState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/TriangulateState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/src/main/java/org/jared/dungeoncrawler/generation/states/TriangulateState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/GenerationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/GenerationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/decorations/DecorationLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/decorations/DecorationLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/decorations/states/LoadingState.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/decorations/states/LoadingState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/BuildState.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/BuildState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/ChestState.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/ChestState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/DoorwayState.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/DoorwayState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/HiddenRoomState.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/HiddenRoomState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/InitializeState.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/InitializeState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/MinimumSpanningState.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/MinimumSpanningState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/SelectRoomsState.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/SelectRoomsState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/SeparationState.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/SeparationState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/TriangulateState.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/classes/org/jared/dungeoncrawler/generation/states/TriangulateState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generation/target/skookum-generation-Generation.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generation/target/skookum-generation-Generation.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugin/skookum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin/skookum.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugin/src/main/java/org/jared/dungeoncrawler/plugin/DungeonCrawlerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin/src/main/java/org/jared/dungeoncrawler/plugin/DungeonCrawlerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugin/src/main/java/org/jared/dungeoncrawler/plugin/commands/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin/src/main/java/org/jared/dungeoncrawler/plugin/commands/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/BKCommonLib-1.13.2-v3 (1).jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Skookum.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skookum.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jared/dungeoncrawler/plugin/DungeonCrawlerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jared/dungeoncrawler/plugin/DungeonCrawlerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jared/dungeoncrawler/plugin/commands/Commands$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jared/dungeoncrawler/plugin/commands/Commands$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jared/dungeoncrawler/plugin/commands/Commands$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jared/dungeoncrawler/plugin/commands/Commands$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jared/dungeoncrawler/plugin/commands/Commands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jared/dungeoncrawler/plugin/commands/Commands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_12_R1/skookum-v1_12_R1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/v1_12_R1/skookum-v1_12_R1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_12_R1/src/main/java/org/jared/dungeoncrawler/v1_12_R1/Structure.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1_12_R1/src/main/java/org/jared/dungeoncrawler/v1_12_R1/Structure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_12_R1/src/main/java/org/jared/dungeoncrawler/v1_12_R1/StructureUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1_12_R1/src/main/java/org/jared/dungeoncrawler/v1_12_R1/StructureUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_12_R1/src/main/java/org/jared/dungeoncrawler/v1_12_R1/block/BlockUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1_12_R1/src/main/java/org/jared/dungeoncrawler/v1_12_R1/block/BlockUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_12_R1/target/classes/org/jared/dungeoncrawler/v1_12_R1/Structure.class" beforeDir="false" afterPath="$PROJECT_DIR$/v1_12_R1/target/classes/org/jared/dungeoncrawler/v1_12_R1/Structure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_12_R1/target/classes/org/jared/dungeoncrawler/v1_12_R1/block/BlockUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/v1_12_R1/target/classes/org/jared/dungeoncrawler/v1_12_R1/block/BlockUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_12_R1/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1_12_R1/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_12_R1/target/skookum-v1_12_R1-v1_12_R1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/v1_12_R1/target/skookum-v1_12_R1-v1_12_R1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R1/skookum-v1_13_R1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R1/skookum-v1_13_R1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R1/src/main/java/org/jared/dungeoncrawler/v1_13_R1/Structure.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R1/src/main/java/org/jared/dungeoncrawler/v1_13_R1/Structure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R1/src/main/java/org/jared/dungeoncrawler/v1_13_R1/StructureUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R1/src/main/java/org/jared/dungeoncrawler/v1_13_R1/StructureUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R1/src/main/java/org/jared/dungeoncrawler/v1_13_R1/block/BlockUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R1/src/main/java/org/jared/dungeoncrawler/v1_13_R1/block/BlockUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R1/target/classes/org/jared/dungeoncrawler/v1_13_R1/Structure.class" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R1/target/classes/org/jared/dungeoncrawler/v1_13_R1/Structure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R1/target/classes/org/jared/dungeoncrawler/v1_13_R1/block/BlockUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R1/target/classes/org/jared/dungeoncrawler/v1_13_R1/block/BlockUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R1/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R1/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R1/target/skookum-v1_13_R1-v1_13_R1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R1/target/skookum-v1_13_R1-v1_13_R1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/skookum-v1_13_R2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R2/skookum-v1_13_R2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/DynamicOps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/DynamicOpsNBTea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/PacketUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/packets/PacketNMS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/Structure.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/nbt/LocalDataFixer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/StructureUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/block/BlockUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/block/BlockNMS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/maps/MapUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/maps/MapNMS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/structures/Structure.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/structures/Structure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/testloader/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/util/TitleUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/DynamicOps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/DynamicOpsNBTea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/PacketUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/Structure$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/Structure$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/Structure$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/Structure$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/Structure$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/Structure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/StructureUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/block/BlockUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/maps/MapUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/structures/Structure.class" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/structures/Structure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/testloader/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/classes/org/jared/dungeoncrawler/v1_13_R2/util/TitleUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R2/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1_13_R2/target/skookum-v1_13_R2-v1_13_R2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/v1_13_R2/target/skookum-v1_13_R2-v1_13_R2.jar" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/Game/target/" />
     <ignored path="$PROJECT_DIR$/v1_13_R2/target/" />
     <ignored path="$PROJECT_DIR$/API/target/" />
@@ -18,154 +250,115 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTDynamicOpsTest.java">
+        <entry file="file://$PROJECT_DIR$/v1_13_R1/src/main/java/org/jared/dungeoncrawler/v1_13_R1/StructureUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="850">
+              <caret line="95" column="6" lean-forward="true" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1_12_R1/src/main/java/org/jared/dungeoncrawler/v1_12_R1/StructureUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/material/MaterialAndData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/MapColourPalette.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#6815#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1549#1550#0" expanded="true" />
-                <element signature="e#1593#1594#0" expanded="true" />
-                <element signature="e#1636#1637#0" expanded="true" />
-                <element signature="e#1682#1683#0" expanded="true" />
-                <element signature="e#1726#1727#0" expanded="true" />
-                <element signature="e#1768#1769#0" expanded="true" />
-                <element signature="e#1810#1811#0" expanded="true" />
-                <element signature="e#1854#1855#0" expanded="true" />
-                <element signature="e#1897#1898#0" expanded="true" />
-                <element signature="e#1943#1944#0" expanded="true" />
-                <element signature="e#1987#1988#0" expanded="true" />
-                <element signature="e#2035#2036#0" expanded="true" />
-                <element signature="e#2080#2081#0" expanded="true" />
-                <element signature="e#2289#2290#0" expanded="true" />
-                <element signature="e#2334#2335#0" expanded="true" />
-                <element signature="e#6742#6743#0" expanded="true" />
-                <element signature="e#6812#6813#0" expanded="true" />
-                <element signature="e#7062#7063#0" expanded="true" />
-                <element signature="e#7119#7120#0" expanded="true" />
-                <element signature="e#7376#7377#0" expanded="true" />
-                <element signature="e#7434#7435#0" expanded="true" />
-                <element signature="e#9417#9418#0" expanded="true" />
-                <element signature="e#9445#9446#0" expanded="true" />
+                <element signature="e#4731#4732#0" expanded="true" />
+                <element signature="e#4774#4775#0" expanded="true" />
+                <element signature="e#5626#5627#0" expanded="true" />
+                <element signature="e#5679#5680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/MapColourSpaceData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#3107#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/Structure.java">
+        <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/controllers/DefaultMapController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="178" column="140" lean-forward="true" selection-start-line="178" selection-start-column="140" selection-end-line="178" selection-end-column="140" />
+            <state relative-caret-position="408">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#1632#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/spigot-1.13.2.jar!/net/minecraft/server/v1_13_R2/DynamicOpsNBT.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3347">
-              <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/spigot-1.13.2.jar!/net/minecraft/server/v1_13_R2/NBTBase.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1035">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/structures/Structure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagCompound.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/INBTBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="e#2540#2541#0" expanded="true" />
-                <element signature="e#2578#2579#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTList.java">
+        <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDBubbleFormat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Plugin/src/main/java/org/jared/dungeoncrawler/plugin/DungeonCrawlerMain.java">
+        <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDGenBukkit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="459">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <element signature="e#5270#5271#0" expanded="true" />
-                <element signature="e#5309#5310#0" expanded="true" />
-                <element signature="e#6038#6039#0" expanded="true" />
-                <element signature="e#6079#6080#0" expanded="true" />
-                <element signature="e#6161#6162#0" expanded="true" />
-                <element signature="e#6205#6206#0" expanded="true" />
-                <element signature="e#6275#6276#0" expanded="true" />
-                <element signature="e#6313#6314#0" expanded="true" />
-                <element signature="e#6379#6380#0" expanded="true" />
-                <element signature="e#6415#6416#0" expanded="true" />
-                <element signature="e#6473#6474#0" expanded="true" />
-                <element signature="e#6505#6506#0" expanded="true" />
-                <element signature="e#6563#6564#0" expanded="true" />
-                <element signature="e#6595#6596#0" expanded="true" />
-                <element signature="e#6660#6661#0" expanded="true" />
-                <element signature="e#6696#6697#0" expanded="true" />
-                <element signature="e#6757#6758#0" expanded="true" />
-                <element signature="e#6791#6792#0" expanded="true" />
-                <element signature="e#6845#6846#0" expanded="true" />
-                <element signature="e#6875#6876#0" expanded="true" />
-                <element signature="e#6946#6947#0" expanded="true" />
-                <element signature="e#7000#7001#0" expanded="true" />
+                <element signature="e#0#2022#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/testloader/Test.java">
+        <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDWebbingCodec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+            <state relative-caret-position="408">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#3906#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/material/IMaterialAndData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -183,13 +376,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>datafixerbuilder</find>
-      <find>var0x</find>
-      <find>net.minecraft.server.v1_13_R2.</find>
-      <find>Lis</find>
-      <find>damage(</find>
-      <find>invulnerable =</find>
-      <find>setinvul</find>
       <find>setin</find>
       <find>getmaximum</find>
       <find>damage</find>
@@ -213,6 +399,13 @@
       <find>getkeys</find>
       <find>set</find>
       <find>get</find>
+      <find>toggle</find>
+      <find>readby</find>
+      <find>a(NBT</find>
+      <find>net.minecraft.server.v1_13_R2.</find>
+      <find>NBTTag</find>
+      <find>getmate</find>
+      <find>compile</find>
     </findStrings>
     <replaceStrings>
       <replace>row</replace>
@@ -234,65 +427,67 @@
       <replace>keySet</replace>
       <replace>setTag</replace>
       <replace>getTag</replace>
+      <replace>net.minecraft.server.v1_13_R2.NBTTag</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/conversion/DataConverterBedBlock.java" />
-        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/conversion/DataConverterEntityBlockState.java" />
-        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/conversion/AddNewChoices.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/NBTBase.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/Tag.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/ShortTag.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/LongTag.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/IntTag.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/FloatTag.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/EndTag.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/DoubleTag.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/StringTag.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/ByteArrayTag.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/IntArrayTag.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/LongArrayTag.java" />
-        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/conversion/dynamic/DynamicOpsNBT.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/CompoundTag.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/ListTag.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/NBTInputStream.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/ByteTag.java" />
-        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/StructureUtil.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/NBTTagByteArray.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTSizeTracker.java" />
-        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/DynamicOpsNBT.java" />
-        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/DynamicOpsNBTea.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTUtil.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/CompressedStreamTools.java" />
-        <option value="$PROJECT_DIR$/v1_12_R1/src/main/java/org/jared/dungeoncrawler/v1_12_R1/Structure.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagByte.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTNumber.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagInt.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagByteArray.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagDouble.java" />
         <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagFloat.java" />
         <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagIntArray.java" />
         <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagLong.java" />
         <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagShort.java" />
         <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagString.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagList.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagLongArray.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/testloader/Test.java" />
         <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTDynamicOps.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTDynamicOpsTest.java" />
-        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/structures/Structure.java" />
-        <option value="$PROJECT_DIR$/Plugin/src/main/java/org/jared/dungeoncrawler/plugin/DungeonCrawlerMain.java" />
-        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagCompound.java" />
         <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTBase.java" />
         <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTList.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTDynamicOpsTest.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagCompound.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagByte.java" />
         <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/INBTBase.java" />
+        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/DataInputFrom.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagList.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagLongArray.java" />
         <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/Structure.java" />
+        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/nbt/NBTUtil.java" />
+        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/structures/StructureTest.java" />
+        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/structures/NBTDataExtractor.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/minecraftnbt/NBTTagByte.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/minecraftnbt/NBTTagByte.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagByte.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/util/NBTUpdater.java" />
+        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/util/NBTUpdater.java" />
+        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/nbt/NBTUpdater.java" />
+        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/nbt/LocalDataFixer.java" />
+        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/StructureUtil.java" />
+        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/maps/MapNMS.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/material/IMaterialAndData.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/material/MaterialDataWrapper.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/material/MaterialAndData.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagByteArray.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/IStructure.java" />
+        <option value="$PROJECT_DIR$/v1_12_R1/src/main/java/org/jared/dungeoncrawler/v1_12_R1/Structure.java" />
+        <option value="$PROJECT_DIR$/v1_13_R1/src/main/java/org/jared/dungeoncrawler/v1_13_R1/Structure.java" />
+        <option value="$PROJECT_DIR$/Game/src/main/java/org/jared/dungeoncrawler/game/listeners/PlayerJoin.java" />
+        <option value="$PROJECT_DIR$/Plugin/src/main/java/org/jared/dungeoncrawler/plugin/DungeonCrawlerMain.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/AbstractStructure.java" />
+        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/structures/Structure.java" />
+        <option value="$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/structures/StructureNMS.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/IStructureUtil.java" />
+        <option value="$PROJECT_DIR$/v1_13_R1/src/main/java/org/jared/dungeoncrawler/v1_13_R1/StructureUtil.java" />
+        <option value="$PROJECT_DIR$/v1_12_R1/src/main/java/org/jared/dungeoncrawler/v1_12_R1/StructureUtil.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDBubbleFormat.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/MapColourPalette.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDGenBukkit.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDWebbingCodec.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/MapColourSpaceData.java" />
+        <option value="$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/controllers/DefaultMapController.java" />
       </list>
     </option>
   </component>
@@ -320,8 +515,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -414,17 +607,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="generation" type="462c0819:PsiDirectoryNode" />
-              <item name="maps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="generation" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -457,6 +639,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="maps" type="462c0819:PsiDirectoryNode" />
+              <item name="colour" type="462c0819:PsiDirectoryNode" />
+              <item name="mcsd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="maps" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -467,8 +661,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="maps" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="material" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
@@ -478,8 +671,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="maps" type="462c0819:PsiDirectoryNode" />
-              <item name="wrappers" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
@@ -511,28 +703,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="structures" type="462c0819:PsiDirectoryNode" />
-              <item name="nbt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="structures" type="462c0819:PsiDirectoryNode" />
-              <item name="nbtTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
@@ -673,36 +843,6 @@
             <path>
               <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
               <item name="Skookum" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="spigot-1.13.2.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="spigot-1.13.2.jar" type="ab9368bb:PsiFileNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="spigot-1.13.2.jar" type="ab9368bb:PsiFileNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="minecraft" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="spigot-1.13.2.jar" type="ab9368bb:PsiFileNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="minecraft" type="462c0819:PsiDirectoryNode" />
-              <item name="v1_13_R2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
               <item name="Plugin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -744,6 +884,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="plugin" type="462c0819:PsiDirectoryNode" />
               <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
@@ -829,6 +979,41 @@
             <path>
               <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
               <item name="Skookum" type="462c0819:PsiDirectoryNode" />
+              <item name="v1_13_R1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
+              <item name="v1_13_R1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
+              <item name="v1_13_R1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
+              <item name="v1_13_R1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
+              <item name="v1_13_R1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="v1_13_R1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
               <item name="v1_13_R2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -889,6 +1074,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="v1_13_R2" type="462c0819:PsiDirectoryNode" />
+              <item name="nbt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
+              <item name="v1_13_R2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="v1_13_R2" type="462c0819:PsiDirectoryNode" />
+              <item name="packets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Skookum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Skookum" type="462c0819:PsiDirectoryNode" />
+              <item name="v1_13_R2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="v1_13_R2" type="462c0819:PsiDirectoryNode" />
               <item name="structures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -905,30 +1110,32 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558058173155" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558403301874" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/spigot-1.13.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JPaul\IdeaProjects\Skookum\API\src\main\java\org\jared\dungeoncrawler\api\nbt" />
+      <recent name="C:\Users\JPaul\IdeaProjects\Skookum\API\src\main\java\org\jared\dungeoncrawler\api\structures" />
       <recent name="C:\Users\JPaul\IdeaProjects\Skookum\API\src\main\java\org\jared\dungeoncrawler\api\structures\nbtTest" />
       <recent name="C:\Users\JPaul\IdeaProjects\Skookum\API\src\main\java\org\jared\dungeoncrawler\api\structures\nbt" />
       <recent name="C:\Users\JPaul\IdeaProjects\Skookum\v1_13_R2\src\main\java\org\jared\dungeoncrawler\v1_13_R2\conversion" />
-      <recent name="C:\Users\JPaul\IdeaProjects\Skookum\v1_13_R2\src\main\java\org\jared\dungeoncrawler\v1_13_R2\block" />
-      <recent name="C:\Users\JPaul\IdeaProjects\Skookum\v1_13_R2\src\main\java\org\jared\dungeoncrawler\v1_13_R2\fixes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.jared.dungeoncrawler.v1_13_R2.structures" />
       <recent name="org.jared.dungeoncrawler.v1_13_R2.conversion" />
       <recent name="org.jared.dungeoncrawler.api.data.conversion" />
       <recent name="org.jared.dungeoncrawler.v1_12_R1" />
       <recent name="org.jared.dungeoncrawler.v1_12_R1.maps" />
-      <recent name="org.jared.dungeoncrawler.v1_13_R1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JPaul\IdeaProjects\Skookum\v1_13_R2\src\main\java\org\jared\dungeoncrawler\v1_13_R2\conversion" />
@@ -989,7 +1196,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21610738" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24228188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -999,13 +1206,13 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32909605" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4986577" weight="0.32577905" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49798658" weight="0.3216783" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013423" side_tool="true" weight="0.28895184" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50201344" side_tool="true" weight="0.32577905" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1019,485 +1226,353 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/ListTag.java">
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTList.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagList.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagString.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/INBTBase.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagInt.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagFloat.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTSizeTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/IntTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
-          <folding>
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2088#2089#0" expanded="true" />
-            <element signature="e#2138#2139#0" expanded="true" />
-            <element signature="e#2182#2183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.13.2.jar!/net/minecraft/server/v1_13_R2/DefinedStructure.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="469" column="26" selection-start-line="469" selection-start-column="26" selection-end-line="469" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.13.2.jar!/net/minecraft/server/v1_13_R2/IDataManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.13.2.jar!/net/minecraft/server/v1_13_R2/WorldServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="1036" column="33" selection-start-line="1036" selection-start-column="33" selection-end-line="1036" selection-end-column="33" />
-          <folding>
-            <element signature="e#42829#42830#0" expanded="true" />
-            <element signature="e#42872#42873#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/ByteTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-          <folding>
-            <element signature="e#2066#2067#0" expanded="true" />
-            <element signature="e#2090#2091#0" expanded="true" />
-            <element signature="e#2140#2141#0" expanded="true" />
-            <element signature="e#2174#2175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/NBTInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
-          <caret line="115" column="50" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/StructureUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="70" column="122" selection-start-line="70" selection-start-column="122" selection-end-line="70" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbt/NBTTagByteArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1069">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.13.2.jar!/com/mojang/datafixers/DataFixer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/JsonToNBT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.12.2.jar!/net/minecraft/server/v1_12_R1/MathHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/CompressedStreamTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1_12_R1/src/main/java/org/jared/dungeoncrawler/v1_12_R1/Structure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTPrimitive.java">
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.13.2.jar!/net/minecraft/server/v1_13_R2/NBTNumber.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.13.2.jar!/net/minecraft/server/v1_13_R2/NBTList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagEnd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagFloat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagLong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagShort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="92" column="21" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTSizeTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-328">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagIntArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding>
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagLongArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-          <folding>
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#1704#1705#0" expanded="true" />
-            <element signature="e#2629#2630#0" expanded="true" />
-            <element signature="e#2678#2679#0" expanded="true" />
-            <element signature="e#2720#2721#0" expanded="true" />
-            <element signature="e#2752#2753#0" expanded="true" />
-            <element signature="e#2781#2782#0" expanded="true" />
-            <element signature="e#2820#2821#0" expanded="true" />
-            <element signature="e#2867#2868#0" expanded="true" />
-            <element signature="e#2922#2923#0" expanded="true" />
-            <element signature="e#2979#2980#0" expanded="true" />
-            <element signature="e#3042#3043#0" expanded="true" />
-            <element signature="e#3086#3087#0" expanded="true" />
-            <element signature="e#3149#3150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagDouble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagByte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagByteArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
-          <folding>
-            <element signature="e#2480#2481#0" expanded="true" />
-            <element signature="e#2507#2508#0" expanded="true" />
-            <element signature="e#2604#2605#0" expanded="true" />
-            <element signature="e#2657#2658#0" expanded="true" />
-            <element signature="e#2725#2726#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Skookum.iml">
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagLong.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagByte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/Structure.java" />
+    <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/StructureUtil.java" />
+    <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/packets/PacketNMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/maps/MapNMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1105">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.13.2.jar!/net/minecraft/server/v1_13_R2/DefinedStructure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8874">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.13.2.jar!/org/bukkit/block/data/BlockData.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/EntityInfo.java" />
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/ICustomDefinedStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/pathfinding/AStar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/block/IBlockUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/material/XMaterial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/block/AbstractBlockUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/block/BlockNMS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.jar!/javassist/ClassPool.class">
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/generation/block/BlockPlaceTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2890">
-          <caret line="202" column="35" selection-start-line="202" selection-start-column="35" selection-end-line="202" selection-end-column="35" />
+        <state relative-caret-position="145">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.13.2.jar!/net/minecraft/server/v1_13_R2/NBTTagCompound.class">
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/nbt/NBTTagByteArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/DynamicOps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTDynamicOps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-865">
-          <caret line="274" column="61" selection-start-line="274" selection-start-column="61" selection-end-line="274" selection-end-column="61" />
+        <state relative-caret-position="819">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#11959#11960#0" expanded="true" />
-            <element signature="e#11987#11988#0" expanded="true" />
+            <element signature="e#2669#2670#0" expanded="true" />
+            <element signature="e#2728#2729#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/DynamicOpsNBTea.java">
+    <entry file="file://$PROJECT_DIR$/Plugin/src/main/java/org/jared/dungeoncrawler/plugin/Dungeon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/testloader/Test.java">
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/plugin/DungeonCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1_12_R1/src/main/java/org/jared/dungeoncrawler/v1_12_R1/Structure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game/src/main/java/org/jared/dungeoncrawler/game/listeners/PlayerJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/IStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Plugin/src/main/java/org/jared/dungeoncrawler/plugin/DungeonCrawlerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="289">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/nbt/NBTUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2533">
+          <caret line="149" column="25" lean-forward="true" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
           <folding>
-            <element signature="e#5270#5271#0" expanded="true" />
-            <element signature="e#5309#5310#0" expanded="true" />
-            <element signature="e#6038#6039#0" expanded="true" />
-            <element signature="e#6079#6080#0" expanded="true" />
-            <element signature="e#6161#6162#0" expanded="true" />
-            <element signature="e#6205#6206#0" expanded="true" />
-            <element signature="e#6275#6276#0" expanded="true" />
-            <element signature="e#6313#6314#0" expanded="true" />
-            <element signature="e#6379#6380#0" expanded="true" />
-            <element signature="e#6415#6416#0" expanded="true" />
-            <element signature="e#6473#6474#0" expanded="true" />
-            <element signature="e#6505#6506#0" expanded="true" />
-            <element signature="e#6563#6564#0" expanded="true" />
-            <element signature="e#6595#6596#0" expanded="true" />
-            <element signature="e#6660#6661#0" expanded="true" />
-            <element signature="e#6696#6697#0" expanded="true" />
-            <element signature="e#6757#6758#0" expanded="true" />
-            <element signature="e#6791#6792#0" expanded="true" />
-            <element signature="e#6845#6846#0" expanded="true" />
-            <element signature="e#6875#6876#0" expanded="true" />
-            <element signature="e#6946#6947#0" expanded="true" />
-            <element signature="e#7000#7001#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/plugin/IDungeonCrawlerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/AbstractStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="228" column="9" lean-forward="true" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/structures/Structure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="646">
+          <caret line="186" column="26" lean-forward="true" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.12.2.jar!/net/minecraft/server/v1_12_R1/NBTBase.class">
+    <entry file="file://$PROJECT_DIR$/v1_13_R1/src/main/java/org/jared/dungeoncrawler/v1_13_R1/Structure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="85">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTList.java">
+    <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/nbt/LocalDataFixer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/structures/StructureNMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/IStructureUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1_13_R1/src/main/java/org/jared/dungeoncrawler/v1_13_R1/StructureUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="95" column="6" lean-forward="true" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1_12_R1/src/main/java/org/jared/dungeoncrawler/v1_12_R1/StructureUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/material/MaterialDataWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/material/IMaterialAndData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/material/MaterialAndData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDBubbleFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTDynamicOpsTest.java">
+    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.12.2.jar!/org/apache/commons/lang3/ArrayUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#103045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDGenBukkit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#2022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/mcsd/MCSDWebbingCodec.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1549#1550#0" expanded="true" />
-            <element signature="e#1593#1594#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
-            <element signature="e#1682#1683#0" expanded="true" />
-            <element signature="e#1726#1727#0" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
-            <element signature="e#1810#1811#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
-            <element signature="e#1897#1898#0" expanded="true" />
-            <element signature="e#1943#1944#0" expanded="true" />
-            <element signature="e#1987#1988#0" expanded="true" />
-            <element signature="e#2035#2036#0" expanded="true" />
-            <element signature="e#2080#2081#0" expanded="true" />
-            <element signature="e#2289#2290#0" expanded="true" />
-            <element signature="e#2334#2335#0" expanded="true" />
-            <element signature="e#6742#6743#0" expanded="true" />
-            <element signature="e#6812#6813#0" expanded="true" />
-            <element signature="e#7062#7063#0" expanded="true" />
-            <element signature="e#7119#7120#0" expanded="true" />
-            <element signature="e#7376#7377#0" expanded="true" />
-            <element signature="e#7434#7435#0" expanded="true" />
-            <element signature="e#9417#9418#0" expanded="true" />
-            <element signature="e#9445#9446#0" expanded="true" />
+            <element signature="e#0#3906#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/INBTBase.java">
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/MapColourPalette.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="e#2540#2541#0" expanded="true" />
-            <element signature="e#2578#2579#0" expanded="true" />
+            <element signature="e#0#6815#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#4731#4732#0" expanded="true" />
+            <element signature="e#4774#4775#0" expanded="true" />
+            <element signature="e#5626#5627#0" expanded="true" />
+            <element signature="e#5679#5680#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/structures/nbtTest/NBTTagCompound.java">
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/colour/MapColourSpaceData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.13.2.jar!/net/minecraft/server/v1_13_R2/NBTBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1035">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spigot-1.13.2.jar!/net/minecraft/server/v1_13_R2/DynamicOpsNBT.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3347">
-          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1_13_R2/src/main/java/org/jared/dungeoncrawler/v1_13_R2/Structure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="178" column="140" lean-forward="true" selection-start-line="178" selection-start-column="140" selection-end-line="178" selection-end-column="140" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#3107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/src/main/java/org/jared/dungeoncrawler/api/maps/controllers/DefaultMapController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#1632#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -10,7 +10,7 @@ import org.bukkit.block.BlockState;
 import org.bukkit.craftbukkit.v1_12_R1.CraftWorld;
 import org.bukkit.material.MaterialData;
 import org.jared.dungeoncrawler.api.generation.block.AbstractBlockUtil;
-import org.jared.dungeoncrawler.api.generation.block.IMaterialAndData;
+import org.jared.dungeoncrawler.api.material.IMaterialAndData;
 
 public class BlockUtil extends AbstractBlockUtil
 {

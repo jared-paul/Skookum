@@ -3,6 +3,7 @@ package org.jared.dungeoncrawler.api.generation.block;
 import org.bukkit.Chunk;
 import org.bukkit.Location;
 import org.bukkit.util.Vector;
+import org.jared.dungeoncrawler.api.material.IMaterialAndData;
 
 import java.util.List;
 
